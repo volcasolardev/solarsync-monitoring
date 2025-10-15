@@ -1,0 +1,14 @@
+{
+  "api_version": "v2.3.1",
+  "endpoints": {
+    "production_data": "/api/v2/solar/production",
+    "alerts": "/api/v2/alerts",
+    "maintenance": "/api/v2/maintenance/schedule"
+  },
+  "auth": {
+    "type": "bearer",
+    "token_endpoint": "/api/auth/token"
+  },
+  "region": "eu-west-1",
+  "environment": "production"
+}
